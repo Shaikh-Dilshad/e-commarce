@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 58px;
+    line-height: 64px;
+    color: #222;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h4 {
+    font-size: 28px;
+    color: #222;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+p {
+    font-size: 16px;
+    color: #465b46;
+    margin: 15px 0 20px 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+
+}
+
+/* header */
+#header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06)
+}
+
+#navheader {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+#navheader li {
+    padding: 0 12PX;
+    position: relative;
+}
+
+#navheader li a {
+
+    font-size: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+#navheader li a:hover,
+#navheader li a.active {
+    color: #09988e;
+}
+
+#navheader li a.active::after,
+#navheader li a:hover::after {
+    content: '';
+    width: 30PX;
+    height: 2px;
+    background: #09988e;
+    position: absolute;
+    bottom: -4px;
+    left: 12px;
+
+}
+
+/* home pafe */
+.hero {
+    background: url(/img/hero4.png) no-repeat;
+
+    min-height: 90vh;
+    width: 100%;
+    padding: 0 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero h4 {
+    padding-bottom: 20px;
+}
+
+.her h2 {
+    font-size: 57px;
+}
+
+.hero h1 {
+    color: #09988e;
+    font-size: 64px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 23px;
+}
+
+.hero button {
+    background: url(img/button.png) no-repeat;
+    background-size: 100%;
+    padding: 20px 100px;
+    font-size: 25px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    border: none;
+    color: #09988e;
+}
+
+/* features */
+.another {
+    min-height: 100vh;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin-top: 71px;
+
+
+}
+
+.dilshad {
+    margin: 0 30px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    padding: 18px 5px;
+    text-align: center;
+    color: #09988e;
+
+}
+
+.dilshad:hover {
+    box-shadow: 10px 10px 54px rgba(72, 62, 221, 0.1);
+}
+
+.dilshad h6 {
+    margin: 17px 20px 0px 21px;
+    padding: 13px 0px;
+    font-size: 16px;
+    border-radius: 3PX;
+
+
+}
+
+.shipping h6 {
+    background: #dbf4f6;
+}
+
+.shipping2 h6 {
+    background: #b1da71;
+}
+
+.shipping3 h6 {
+    background: #f9a1d499;
+}
+
+.shipping4 h6 {
+    background: #dbf4f6;
+}
+
+.shipping5 h6 {
+    background: #c5e7ff;
+}
+
+.shipping6 h6 {
+    background: #F6E5DC;
+}
+
+/* product */
+/* .product1 {
+    padding-top: 85px;
+    text-align: center;
+}
+
+.product1 p {
+    font-size: 20px;
+} */
+
+
+
+/* .f1 {
+    margin-bottom: 40px;
+    
+    
+    width: 21%;
+     min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid black;
+}
+
+.f1 img {
+    width: 70%;
+} */
+.pro-continer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .f1 {
+    position: relative;
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 20px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.02);
+    margin-bottom: 30px;
+    transition: 0.2s ease-in;
+
+}
+
+#product1 .f1:hover {
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .f1 img {
+    width: 100%;
+    border-radius: 20px;
+}
+.pro-continer .f1 .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+.pro-continer .f1 .des span {
+    color: #606063;
+    font-size: 18px;
+}
+
+.pro-continer .f1 .des h5 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 19px;
+}
+.pro-continer .f1 .des h4{
+ padding-top: 14px;
+ font-size: 20px;
+ font-weight: 700;
+ color: #09988e;
+}
+.pro-continer .f1 .des i {
+    font-size: 15   px;
+    color: rgb(243, 181, 25);
+}
+.pro-continer .f1 a i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 600;
+    border: 1px solid #cce7d0;
+    color: #09988e;
+     position: absolute;
+     bottom: 20px;
+     right: 10px;
+}
