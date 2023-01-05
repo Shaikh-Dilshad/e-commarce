@@ -124,7 +124,7 @@ p {
 
 /* home pafe */
 .hero {
-    background: url(/img/hero4.png) no-repeat;
+    background: url(img/hero4.png) no-repeat;
     background-size: cover;
 
     min-height: 100vh;
