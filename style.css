@@ -490,7 +490,7 @@ h4 {
 }
 
 .banner2 .aww3 {
-    background: url(/img/banner/b4.jpg) no-repeat;
+    background: url(img/banner/b4.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -524,7 +524,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url(/img/banner/b14.png) no-repeat;
+    background: url(img/banner/b14.png) no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
 
