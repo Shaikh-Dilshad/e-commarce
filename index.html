@@ -17,28 +17,7 @@
 <body>
 
     <div class="container1">
-        <!-- <div id="header">
-            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
-
-            <div class="nav">
-                <ul id="navheader">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="Shop.html">Shop</a></li>
-                    <li><a href="Blog.html">Blog</a></li>
-                    <li><a href="About.html">About</a></li>
-
-                    <li><a href="Contact.html">Contact</a></li>
-
-                    <li><a href="bag.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
-
-
-                </ul>
-            </div>
-            <div class="mobile">
-                <a href="bag.html"><i class="fa-solid fa-bag-shopping" id="anothershopping"></i></a>
-                <i class="fa fa-outdent" id="bar1"></i>
-
-            </div> -->
+ 
         <nav class="navbar navbar-expand-lg  header" id="navheader">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo" alt=""></a>
@@ -46,21 +25,22 @@
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-" type="submit">Search</button>
                 </form>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart2"></i></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">      
+                    <span class="navbar-toggler-icon">
                     </span>
 
                 </button>
-               
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
+                            <a href="shop.html" class="nav-link" href="#">Shop</a>
                         </li>
 
                         </li>
@@ -71,8 +51,12 @@
                             <a class="nav-link ">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ">About</a>
+                            <a class="nav-link ">Contact</a>
                         </li>
+                        <!-- <li class="nav-item">
+                           <a href="bag.html"></a><i class="fa-solid fa-bag-shopping"></i></a>
+                        </li> -->
+                        <li><a href="bag.html" class="nav-link"><i class="fa-solid fa-bag-shopping"></i></a></li>
                     </ul>
                     <!-- <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -82,7 +66,59 @@
                 </div>
             </div>
         </nav>
-        <div class="hero">
+        <div id="carouselExampleIndicators" class="carousel slide hero" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <img src="img/hero4.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption  ">
+                  <h4>Trade-in-offer</h4>
+                  <h2>Super value deals</h2>
+                  <h1>On all products</h1>
+                  <p>save more with coupon & up to 70% off!</p>
+                  <button>shop now</button>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <img src="img/hero4.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption  ">
+                  <h4>Trade-in-offer</h4>
+                  <h2>Super value deals</h2>
+                  <h1>On all products</h1>
+                  <p>save more with coupon & up to 70% off!</p>
+                  <button>shop now</button>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <img src="img/hero4.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption  ">
+                  <h4>Trade-in-offer</h4>
+                  <h2>Super value deals</h2>
+                  <h1>On all products</h1>
+                  <p>save more with coupon & up to 70% off!</p>
+                  <button id="shop1">shop now</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- <div class="hero">
             <div class="hero2">
                 <h4>Trade-in-offer</h4>
                 <h2>Super value deals</h2>
@@ -90,31 +126,31 @@
                 <p>save more with coupon & up to 70% off!</p>
                 <button>shop now</button>
             </div>
-        </div>
+        </div> -->
 
         <div class="features  center  ">
             <div class="dilshad shipping ">
-                <img src="img/features/f1.png " alt="">
+                <img src="/img/features/f1.png " alt="">
                 <h6> Free shipping</h6>
             </div>
             <div class="dilshad shipping2 ">
-                <img src="img/features/f2.png" alt="">
+                <img src="/img/features/f2.png" alt="">
                 <h6> Online Order</h6>
             </div>
             <div class="dilshad shipping3 ">
-                <img src="img/features/f3.png" alt="">
+                <img src="/img/features/f3.png" alt="">
                 <h6> Save Money</h6>
             </div>
             <div class="dilshad shipping4 ">
-                <img src="img/features/f4.png" alt="">
+                <img src="/img/features/f4.png" alt="">
                 <h6> Promotion</h6>
             </div>
             <div class="dilshad shipping5 ">
-                <img src="img/features/f5.png" alt="">
+                <img src="/img/features/f5.png" alt="">
                 <h6> Happy Sell</h6>
             </div>
             <div class="dilshad shipping6 ">
-                <img src="img/features/f6.png" alt="">
+                <img src="/img/features/f6.png" alt="">
                 <h6>F24/7 Support</h6>
             </div>
 
